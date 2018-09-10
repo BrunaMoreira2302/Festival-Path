@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Pontano Sans', sans-serif;
+
+}
+
+/*BORDER-BOX*/
+
+
+/*AJUSTE DE BLOCOS*/
+header {
+	height: 625px;
+	border: 2px solid red;
+}
+
+main {
+	height: 300px;
+	border: 2px solid blue;
+}
+
+section {
+	height: 200px;
+	border: 2px solid green;
+}
+
+.bl-principal{
+	width: 80%;
+	height: 100%;
+	border: 5px solid yellow;
+	margin: 0 auto;
+	display: table;
+}
+
+.bl-slogan{
+	float: left; 
+	width: 30%;
+	height: 100%;
+	border: 2px solid gray;
+}
+
+.bl-atracoes{
+	border: 2px solid gray;
+	height: 100%;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+	background-color: purple;
+	color: #000;
+	border-radius: 50%;
+}
+
+.img-atracoes{
+	display: inline-block;
+	border: 2px solid purple;
+	text-align: center;
+	width: 30%;
+
+}
+
+/*NAVEGAÇÃO*/
+nav {
+	position: fixed;
+	width: 100%;
+	border: 1px solid red;
+	padding: 2%;
+
+}
+
+#btn-ingressos{
+	border: 2px solid red;
+
+}
+
+ul {
+	border: 2px solid red;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+li {
+	display: inline;
+	text-decoration: none;
+	padding: 0px 6px 0px 6px;
+	border: 2px solid red;
+}
+
+li a {
+	color: #000;
+}
+
+
+
+/*TIPOGRAFIA*/
+h1 {
+	font-family: 'Arima Madurai', cursive;
+	font-size: 3em;
+	border: 2px solid #000;
+	text-align: center;
+}
+
+h3 {
+	color: purple;
+}

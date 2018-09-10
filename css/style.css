@@ -33,8 +33,56 @@ h3{
 
 	/*CRIAR GATILHO + MENU DROPDOWN*/
 
-	nav{
-			border: 2px solid red;
+	.menu{
+			background-color: black;
+			width: 100%;
+	}
+
+
+	.menu li{
+		width: 50%;
+		text-align: center;
+		font-size: 1.2em;
+		margin: 1%;
+	}
+
+	.menu li a {
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	.menu li a i{
+		color: #fff;
+	}
+
+	.menu button{
+		width: 100%;
+		font-size: 0.6em;
+	}
+
+	.banner-principal img{
+		width: 100%;
+		height: 100%;
+	}	
+
+	.link-palestras{
+		border-bottom: 3px solid #8B008B;
+	}
+
+	.link-shows{
+		border-bottom: 3px solid #EE9A00;
+	}
+
+	.link-filmes{
+		border-bottom: 3px solid #0000FF;
+	}
+
+	.link-workshops{
+		border-bottom: 3px solid #7FFFD4;
+	}
+
+	.link-mais{
+		border-bottom: 3px solid #FF34B3;
 	}
 
 	main, section{
@@ -82,7 +130,7 @@ h3{
 		border-radius: 5px;
 	}
 
-	section h1, p, figcaption {
+	section h1, p, figcaption, a {
 		color: #fff;
 		margin: 1%;
 	}
@@ -94,22 +142,39 @@ h3{
 		margin: 3%;
 	}
 
-	section i {
+	.bloco-artistas i {
 		border-radius: 50px;
 		width: 45px;
 		height: 45px;
-		border: 4px solid #fff;
+		border: 4px solid red;
 		padding: 2px;
 		background-color: #fff;
+	}
+
+
+	/*PALESTRAS*/
+
+	.palestras{
+		background-color: #8B008B;
+	}
+
+	.palestras h1 i {
+		color: #7FFFD4;
+	}
+
+	.palestras i {
+		position: absolute;
+		margin-left: -0.5em;
+		width: 50px;
+		height: 50px;
+		border: 2px solid red;
 	}
 
 	.bloco-artistas{
 		text-align: center;
 	}
 
-	.palestras{
-		background-color: #8B008B;
-	}
+	/*SHOWS*/
 
 	.shows{
 		background-color: #EE9A00;
@@ -119,12 +184,50 @@ h3{
 		background-color: #0000FF;
 	}
 
+	.filmes h1 i {
+		color: #00BFFF;
+	}
+
+	.filmes i {
+		position: absolute;
+		margin-left: -0.8em;
+		width: 50px;
+		height: 50px;
+		border: 2px solid red;
+	}
+
+/*WORKSHOPS*/
 	.workshops{
 		background-color: #7FFFD4;
 	}
 
+	.workshops h1 i {
+		color: #EE9A00;
+	}
+
+	.workshops i {
+		position: absolute;
+		margin-left: -0.6em;
+		width: 50px;
+		height: 50px;
+		border: 2px solid red;
+	}
+
+/*MAIS*/
 	.mais{
 		background-color: #FF34B3;
+	}
+
+	.mais h1 i {
+		color: #FFD700;
+	}
+
+	.mais i {
+		position: absolute;
+		margin-left: -0.6em;
+		width: 50px;
+		height: 50px;
+		border: 2px solid red;
 	}
 
 
